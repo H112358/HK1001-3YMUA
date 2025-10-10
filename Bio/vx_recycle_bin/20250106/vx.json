@@ -1,16 +1,6 @@
 {
-    "created_time": "2025-10-07T16:03:53Z",
+    "created_time": "2025-10-10T18:24:13Z",
     "files": [
-        {
-            "attachment_folder": "",
-            "created_time": "2025-10-07T16:03:53Z",
-            "id": "53",
-            "modified_time": "2025-10-07T16:03:53Z",
-            "name": "157974019075249.png",
-            "signature": "11901577816059492841",
-            "tags": [
-            ]
-        }
     ],
     "folders": [
         {
@@ -23,8 +13,8 @@
             "name": "Metabolism"
         }
     ],
-    "id": "52",
-    "modified_time": "2025-10-07T16:03:53Z",
-    "signature": "8389154652312386025",
+    "id": "432",
+    "modified_time": "2025-10-10T18:24:13Z",
+    "signature": "16635650220371824461",
     "version": 3
 }
