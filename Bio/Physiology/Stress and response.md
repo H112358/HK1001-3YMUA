@@ -1,0 +1,13 @@
+# Stress and response
+
+ Does env. oxygen concentration contribute to rate of radical formation?
+ 
+Purfusion is vaiable - spinchers in arteriole
+
+Pressure vs plasma protein osmotic gradient - fluid exchange between interstitial vs plasma
+
+edema
+- Reduced p proteins
+- Increased capilary permeabiliy
+- Increase in venous pressure
+- Blockage of lymph

@@ -1,0 +1,13 @@
+SuperMemo Report
+   Activity: Collecting retention data
+   Collection: e:\core subjects\±Ê¼ÇÊ÷\biological sciences\bio
+   Date: Thursday, March 31, 2022, 8:37:49 PM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+Retention data errors can be ignored
+
+Process completed at 8:37:49 PM in 00:00:00 sec (Thursday, March 31, 2022)
+
+NO ERRORS (Collecting retention data)
+
+____________________________________________________________

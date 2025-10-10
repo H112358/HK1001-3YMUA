@@ -1,0 +1,61 @@
+{
+    "created_time": "2025-10-07T16:03:55Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-07T16:03:55Z",
+            "id": "144",
+            "modified_time": "2025-10-07T16:03:55Z",
+            "name": "Axioms and Definitions.md",
+            "signature": "15943060699209873899",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-07T16:03:55Z",
+            "id": "145",
+            "modified_time": "2025-10-07T16:03:55Z",
+            "name": "Differentiation.md",
+            "signature": "1623715123906820587",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-07T16:03:55Z",
+            "id": "146",
+            "modified_time": "2025-10-07T16:03:55Z",
+            "name": "Sets.md",
+            "signature": "11183570644080343531",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-07T16:03:55Z",
+            "id": "147",
+            "modified_time": "2025-10-07T16:03:55Z",
+            "name": "Vector spaces.md",
+            "signature": "8828867262273632747",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-07T17:21:30Z",
+            "id": "367",
+            "modified_time": "2025-10-07T20:34:54Z",
+            "name": "MIT Opencourseware multivariable calculus.md",
+            "signature": "8300712200421854234",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "143",
+    "modified_time": "2025-10-07T16:03:55Z",
+    "signature": "5995885792787249643",
+    "version": 3
+}

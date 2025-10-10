@@ -1,0 +1,7 @@
+# Conservation
+
+* keystone species diversity induces greater ability to support biodiversitys
+    *  Resilience to environemental change
+    * Increased primary production
+    * Trophic cascades can act in both directions
+* Predation-Evolution cycle drives <mark>slow</mark> evolution

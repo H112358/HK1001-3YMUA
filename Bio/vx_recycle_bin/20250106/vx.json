@@ -1,0 +1,30 @@
+{
+    "created_time": "2025-10-07T16:03:53Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2025-10-07T16:03:53Z",
+            "id": "53",
+            "modified_time": "2025-10-07T16:03:53Z",
+            "name": "157974019075249.png",
+            "signature": "11901577816059492841",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "Cellular organisation"
+        },
+        {
+            "name": "Chemical pathways"
+        },
+        {
+            "name": "Metabolism"
+        }
+    ],
+    "id": "52",
+    "modified_time": "2025-10-07T16:03:53Z",
+    "signature": "8389154652312386025",
+    "version": 3
+}

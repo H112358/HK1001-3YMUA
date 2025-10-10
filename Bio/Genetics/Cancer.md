@@ -1,0 +1,30 @@
+# Cancer
+
+## 20250220Lec2
+
+* Her2 - human EGF receptor - gain of function in breast cancer
+    * Ubiquintination tag triggers recruitment cascade that leads to degradation
+    * Ras/BRaf - Gain of function through conformational change | <ins>why are their structures not evolutionarily modulated to maximum effeciency</ins>?
+* Hayflick limit - loop formation on chrmsme ends with depleted telomere sequence
+* Rous - Rous Sarcoma Virus
+    * Dulbecco - cells transform when infected with RSV
+    * Bishop&Varmus - Src gene
+        * Expressed in somatic cells
+        * Expressed across vertebrate realm
+        * Triggers cell division
+    * Viral infection  of RSV
+        * Docking and injection into cytosol
+        * Incorporate viral genome into host genome upon mitosis
+        * Upexpression of Src
+        * More mitosis and more incorporation
+* Ras - a non-bound receptor-Gprotein pathway
+    * Complex activation cascade
+        * Nature selects the first solution - complex solution
+        * Higher robustness
+            * Gain-of-function muations in isolation - apoptosis/sceniscence
+            * Co-mutation with e.g. p53 - transformation
+            * Targeted drugs could provide selection pressure and mutate another part of the pathway
+        * Mutation - P-loop site opens due to mutation of positions 12, 13
+* B-Raf kinase
+* 500-fold expression due to mutation V600E
+* Inhibitor screening - easier to find a non-protein ligand than a protein - and bioavailability is also poorer for proteins
