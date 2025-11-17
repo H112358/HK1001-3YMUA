@@ -79,7 +79,7 @@ Files can be written in .md or .tex, completed articles can be saved to .pdf to 
 
 .
 
-
+Waterman
 
 [^1]:Wikipedia:Reliable Sources.” *Wikipedia*, 12 Jun. 2018, en.wikipedia.org/wiki/Wikipedia:Reliable_sources.
 
