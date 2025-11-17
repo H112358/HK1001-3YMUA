@@ -82,4 +82,4 @@ Starch synthesis out of the blue: ASAP pathway
 
 Motivation letter: Halle
 
-I am a third year student at Trinity College Dublin focusing on plant sciences. My skillset includes a range of 
+I am a third year student at Trinity College Dublin focusing on plant sciences. My skillset includes a range of experimental 
