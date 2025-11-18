@@ -1,0 +1,9 @@
+# Motivation letter ideas
+
+Motivation letter structure draft: Halle
+
+I am a third year student at Trinity College Dublin focusing on plant sciences. I had previous laboratory experience during secondary school in bacterial transformation and transplantation, and sample preparation for RT-qPCR as a part of an initiative held jointly by iGEM team Greatbay_China, Bluepha Co. Ltd. and student science societies at Shenzhen College of International Education to broaden outreach of synthetic biology to secondary level students. My role in this initiative was to facilitate the participation of ~15 students from the Anatomy and Physiology society which I chaired. **Cite interest in plant metabolic systems with source (e.g. Huanglong disease)** (Should I include my introductory experience in western blotting here? I currently should not be able to independently perform western blotting without prior instruction); I am particularly interested in applications of plant pathology due to my strong ties to living relatives undertaking subsidance farming in my ancestral homeland whose livelihood is under threat from increasing plant epidemic intensity as a result of ecosystem degradation due to intensive farming and climate change, I hope to contribute to development of novel resilient plant phenotypes to restore ecosystem services and agricultural production. I therefore am interested in applying the agrobacterium transformation toolkit as it is used widely for introduction of such phenotypes into dicotylodonous plants. It is out of these reasons I want to pursue an internship at your institution
+
+Motivation letter structure draft: Bonn
+
+I plan to phrase most of this as a report of my readings on phytochromes and photoreceptors - especially the evolutionary genetics of CRY, since the programme did not specify its requirements and protocols

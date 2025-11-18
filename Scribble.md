@@ -80,6 +80,3 @@ Starch synthesis out of the blue: ASAP pathway
 ![Stoichiometries of naturally occuring and artificial aero-tolerant CO2 fixation cycles](vx_images/487295203957090.png)
     
 
-Motivation letter: Halle
-
-I am a third year student at Trinity College Dublin focusing on plant sciences. My skillset includes a range of experimental 
