@@ -7,4 +7,4 @@
 @Content article
 
 
-
+Why first order reactions have half lives?
