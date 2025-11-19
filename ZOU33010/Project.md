@@ -18,4 +18,5 @@ Discusses implications of cutting targets on forestry in ireland
 
 This study uses area of old mature forest and volume of dead wood as proxies for biodiversity
 
+ ## Individual Report
  
