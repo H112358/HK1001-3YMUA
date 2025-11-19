@@ -1,10 +1,10 @@
-| Date      | Changelog                                                    |
-| --------- | ------------------------------------------------------------ |
-| 2018/5/31 | Added to paragraphs "Keys and formats" "Article types";      |
+|   Date    |                                            Changelog                                            |
+| --------- | ----------------------------------------------------------------------------------------------- |
+| 2018/5/31 | Added to paragraphs "Keys and formats" "Article types";                                         |
 | 2018/7/05 | Merged paragraph "Footnotes" into "Keys and formats", "Improvements" and "Emphasis" into "Key". |
-| 2019/1/20 | Added paragraphs "Key", "Title".                             |
-| 2020/8/03 | Added section "File management"                              |
-| 2023/2/20 | Reworded sections "Keys and Formats", "Article types"        |
+| 2019/1/20 | Added paragraphs "Key", "Title".                                                                |
+| 2020/8/03 | Added section "File management"                                                                 |
+| 2023/2/20 | Reworded sections "Keys and Formats", "Article types", added link to remote repo                |
 
 
 
@@ -16,7 +16,7 @@
 
 ### Save location
 
-The note tree must be placed under the repository name "E/Core subjects".
+The note tree is kept in [a remote resporitory](https://github.com/H112358/HK1001-3YMUA).
 
 ### File types
 
@@ -41,17 +41,17 @@ Files can be written in .md or .tex, completed articles can be saved to .pdf to 
 
 ### Title
 
-​	The title should always consist of three elements: **table of contents** ([TOC]), **changelog,** and **Article type**, with the order of these elements irrelevant.
+​	The title in a polished article should always consist of three elements: **table of contents** ([TOC]), **changelog,** and **Article type**, with the order of these elements irrelevant.
 
 #### Changelog
 
-​	A changelog is added whenever a paragraph is increased, decreased, added, or removed, or if paragraphs are merged or split. <u>When more than one action is performed, assign them to different rows according to the order table below, and use a semicolon to conclude each action. Use a full stop to conclude an edit.</u>
+​	A changelog is added whenever a paragraph is increased, decreased, added, or removed, or if paragraphs are merged or split. It should record the date at which the commit is made and changes made in the commit.<u>When more than one action is performed, assign them to different rows according to the order table below, and use a semicolon to conclude each action. Use a full stop to conclude an edit.</u>
 
-| Order  |                                                              |
-| ------ | ------------------------------------------------------------ |
-| Higher | Edits modifying any paragraph of more than 1000 words ($1000$, or adding more than 500 words; Edits changing section order by removing, adding or rearranging; |
-| Lower  | Edits modifying any paragraph of more than 500 words and less than or 1000 words, or adding more than 50 words and less than or 500 words; Edits changing paragraph order by removing, adding or rearranging; |
-| Lowest | Edits modifying any paragraph of less than or 500 words, or adding less than or 50 words; |
+| Order  |                                                                                                                                                                                                                       |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Higher | Edits modifying any paragraph containing more than 1000 words ($1000$, or adding more than 500 words; Edits changing section order by removing, adding or rearranging;                                                |
+| Lower  | Edits modifying any paragraph containing more than 500 words and less than or 1000 words, or adding more than 50 words and less than or 500 words; Edits changing paragraph order by removing, adding or rearranging; |
+| Lowest | Edits modifying any paragraph containing less than or 500 words, or adding less than or 50 words;                                                                                                                     |
 
 
 
@@ -75,9 +75,14 @@ Files can be written in .md or .tex, completed articles can be saved to .pdf to 
 
 ## Editing
 
-​	Always record instances under **changelog**. Think twice before you ink. When deleting any section, please use the ~~strikeout~~ format first, since you can obviously not roll back between versions
+​	Always record instances under **changelog**. Think twice before you ink. When deleting any section, please use the ~~strikeout~~ format first, since you can obviously not roll back between versions. Sometimes <span style="color: red;">Major rework</span> need to be done to an article to retain its validity, in such cases use this format: 
 
-.
+    > # **This article is under <span style="color: red;">Major Rework</span> starting <DATE>, please remove this banner when rework had been done**
+
+An article may only be deleted under the following circumstances:
+* The knowledge contained is not transferrable to future studies
+* The topic of interest is no longer considered in my academic career
+* Other equatable circumstances that render the article useless
 
 [^1]:Wikipedia:Reliable Sources.” *Wikipedia*, 12 Jun. 2018, en.wikipedia.org/wiki/Wikipedia:Reliable_sources.
 

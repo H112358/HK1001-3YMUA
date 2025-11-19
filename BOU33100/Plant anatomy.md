@@ -1,3 +1,8 @@
+
+[TOC]
+|Date|Changelog|
+|-|-|
+|2025-9-18|Created sections "Root anatomy and function"; "Leaf anatomy and function"; "Adaptations for effecient photosynthesis" and "Adaptations for stress resistance". Commits made to "Root anatomy and function" and "Leaf anatomy and function"|
 # Tracheophytes anatomy
 
 ## Root anatomy and function <span style="color: red;">WIP</span>
@@ -11,7 +16,12 @@
     * Mycorrhizae hyphen can enter the cortex, based on whether they intrude cells of the cortex they are classifies into ectomycorrhizae and endomycorrhizae (arbuscular mycorrhizae); ectomycorrhizae increases organic matter turnover in low-productivity environments, whilst arbuscular mycorrhizae facilitates better plant uptake of immobile elements (e.g. P) <span style="color: red;">WIP</span>
 * The root tip is dynamic and important
     * Majority of water uptake occurs in root tip in contact with soil particles
-    * The root cap is constantly eroded
+    * The root cap is constantly eroded, however plants are able to utilize this damage via? <span style="color: red;">WIP</span>
+* Xylem are vascular vessels made of dead lignified cells
+    * Perforation plates in the xylem provides biomechanical strength allowing greater xylem radii, which in turn reduces risk of embolism in conditions where transpiration is low (e.g. drought, frost)
+    * Root pressure transport is less relavant in large trees - stem pressure instead driven by thermal expansion - is that why trunks are always colder? <span style="color: red;">WIP</span>
+    * There exists a spacial seperation of sieve elements, but individual directionality is regulated (and could change!)<span style="color: red;">WIP</span>
+        * ...
 
 ## Leaf anatomy and function
 

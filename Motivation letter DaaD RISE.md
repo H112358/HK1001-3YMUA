@@ -1,4 +1,4 @@
-# Motivation letter ideas
+# Ideas
 
 Motivation letter structure draft: Halle
 
