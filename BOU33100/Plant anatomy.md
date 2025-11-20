@@ -16,12 +16,21 @@
     * Mycorrhizae hyphen can enter the cortex, based on whether they intrude cells of the cortex they are classifies into ectomycorrhizae and endomycorrhizae (arbuscular mycorrhizae); ectomycorrhizae increases organic matter turnover in low-productivity environments, whilst arbuscular mycorrhizae facilitates better plant uptake of immobile elements (e.g. P) <span style="color: red;">WIP</span>
 * The root tip is dynamic and important
     * Majority of water uptake occurs in root tip in contact with soil particles
-    * The root cap is constantly eroded, however plants are able to utilize this damage via? <span style="color: red;">WIP</span>
+    * [ ] The root cap is constantly eroded, however plants are able to utilize this damage via? <span style="color: red;">WIP</span>
 * Xylem are vascular vessels made of dead lignified cells
     * Perforation plates in the xylem provides biomechanical strength allowing greater xylem radii, which in turn reduces risk of embolism in conditions where transpiration is low (e.g. drought, frost)
     * Root pressure transport is less relavant in large trees - stem pressure instead driven by thermal expansion - is that why trunks are always colder? <span style="color: red;">WIP</span>
+    * [ ] P-proteins and cellulose act as plugs induced by complex signalling-synthesis pathways?
+    * [ ] Campanion cells are specialised - How?
+    * [ ] Polymer tapping - reduces glucosid solubility by polymerization into raffinose?
+    * ...
+* Phloem are transport systems of sap comprising various cellular components <span style="color: red;">WIP</span>
     * There exists a spacial seperation of sieve elements, but individual directionality is regulated (and could change!)<span style="color: red;">WIP</span>
         * ...
+* Plasmodesmata has protein gatekeepers
+    * [ ] Protein class?
+    * Implication that presence of Casparian strip as assimilant control - root cortex is not protected <span style="color: red;">WIP</span>
+> The above section is not focused on roots, consider transporting to elswhere.
 
 ## Leaf anatomy and function
 
