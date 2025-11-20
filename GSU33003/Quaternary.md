@@ -20,7 +20,7 @@
     * Is carbon fully mixed rapidly across systems?
         * No. deep ocean water has, depending on circulation pattern, limited replenishment of C14 from atmosphere, glacial water has no replenishment at all
     * Is organic C14/C12 ratios similar to atomspheric ratios?
-        * No. Fractionation effects of [photosynthetic assimilation](../BOU33123/Plant%20biochemistry.md) meant that there is less C14 in organic matter than in atmosphere.
+        * No. Fractionation effects of [photosynthetic assimilation](../BOU33100/Plant%20biochemistry.md) meant that there is less C14 in organic matter than in atmosphere.
         * Atmospheric C13/C12 ratio contigent (standard is Pee Dee Belemnite), C13 also experiences fractionation effect - used as calibration
         
 
