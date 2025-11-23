@@ -100,9 +100,12 @@
         },
         {
             "name": "Interesting topics"
+        },
+        {
+            "name": "Careers"
         }
     ],
-    "id": "1167",
+    "id": "1176",
     "modified_time": "2025-10-20T19:32:23Z",
     "signature": "9765977934546767431",
     "version": 3
