@@ -4,7 +4,11 @@
 
 ### Ireland has climate conditions ideal for temperate forests...
 
+<<<<<<< HEAD
 Ireland currently has 11% of its landmass covered by forest \cite{FoodMarineA2023}, this is a significant contrast to the 80% potential cover defined by fundamental niches of tree species \cite{Cross1998}. Historically, pollen records had shown Irish forests to reach their maximum extent at around
+=======
+Ireland currently has 11% of its landmass covered by forest \cite{FoodMarineA2023}, this is a significant contrast to the 80% potential cover defined by fundamental niches of tree species \cite{Cross1998}. Historically, pollen records had shown Irish forests to reach their maximum extent at 
+>>>>>>> 99f8f2cba486aae46feda9c506c43e088c396053
 
 * Write about the geological history of vegetation in Ireland (Ice age earth, probably citing a few articles from encyc quat sci)
 * Write about the topological and hydrological conditions of ireland
