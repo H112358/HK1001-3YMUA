@@ -1,6 +1,16 @@
 {
     "created_time": "2025-10-20T19:32:24Z",
     "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2025-11-27T21:22:43Z",
+            "id": "1270",
+            "modified_time": "2025-11-27T21:22:43Z",
+            "name": "collection.ini",
+            "signature": "11701010733195641123",
+            "tags": [
+            ]
+        }
     ],
     "folders": [
         {

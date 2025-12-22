@@ -19,5 +19,5 @@
 
   Attempts to fit explanatory model to food web empiricals
 
-  * S$\times$S matrix where element $a_{ij}$=1 if species i is consumed by species j and 0 otherwise. Therefore there are $S^2$ possible 1's but empirically there are $L \le S^2$ 1's since species may not be in direct trophic connection. $C=\frac{L}{S^2}$ measures directed connectance (**the proportion of documented directed links out of maximum possible directed links ... Cannibalism is an important aspect ... Accordingly I use the following algorithm*, Martinez 1991, Ecological Society of America)
+  * S$\times$S matrix where element $a_{ij}$=1 if species i is consumed by species j and 0 otherwise. Therefore there are $S^2$ possible 1's but empirically there are $L \le S^2$ 1's since species may not be in direct trophic connection. $C=\frac{L}{S^2}$ measures directed connectance (*the proportion of documented directed links out of maximum possible directed links ... Cannibalism is an important aspect ... Accordingly I use the following algorithm*, Martinez 1991, Ecological Society of America)
   * 

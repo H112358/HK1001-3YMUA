@@ -1,8 +1,8 @@
-# Pyrmidine dimerisation and chryptochromes
+# Photolyase and chryptochromes
 
+## Photolyase
 
-
-# Pyrmidine dimerisation
+### Pyrmidine dimerisation
 
 
 
@@ -13,3 +13,250 @@
 
 * [2+2] cycloaddition
     * ~~what happens in reverse?~~ <span style="color: red;">WIP</span>
+    
+
+## Cryptochrome
+
+### Wang et al.
+
+* LY4 gene is responsible for blue-light inhibition of hypocotyl  elongation of *Arabidopsis* seedlings that encodes a protein homologous to dna Photolyase
+
+# CGPT
+
+Nice — below I pulled **only the parts of the review that are relevant to *signaling proteins*** (i.e., receptor complexes, scaffolds, interaction networks, localization and regulatory roles, moonlighting functions, and the methods that reveal those features). For each extracted insight I cite the primary papers the review relies on — **I used the DOIs of those primary papers** (not a link to the review PDF). After the extracts you’ll find a compact **comparison table** that maps each method → what kinds of protein functions it’s best at revealing, with DOIs for representative primary-method papers.
+
+# 🔎 Extracts from the review relevant to *signaling proteins* (with primary-paper DOIs)
+
+### 1) Protein–protein interactions and complexes as direct evidence for signaling roles
+
+• **Insight:** Identifying protein complexes (via AP-MS, co-fractionation, XL-MS and native MS) reveals physical interaction partners, stoichiometry and topology — key clues for receptors, scaffolds, adaptor proteins and signaling complexes (e.g., who binds whom, whether a receptor forms homo/hetero-oligomers, and what regulatory subunits are present).
+• **Representative primary-method papers / DOIs:** AP-MS / interactomics approaches and discussion — Zhang et al., *Investigating the dynamics of protein–protein interactions in plants* (Plant J., 2023). DOI: **10.1111/tpj.16182**.
+• **Also cited for methods that preserve native assemblies:** Boeri Erba & Petosa, *The emerging role of native mass spectrometry…* (Protein Sci., 2015). DOI: **10.1002/pro.2661**.
+• **Co-fractionation (CF-MS) for mapping assemblies** (useful to detect receptor complexes and metabolite-sensing assemblies): Schlossarek et al., *Don't let go — co-fractionation mass spectrometry…* (Plant J., 2023). DOI: **10.1111/tpj.16084**.
+
+---
+
+### 2) Cross-linking MS (XL-MS) and spatial constraints for receptor architectures
+
+• **Insight:** XL-MS gives distance/interaction constraints that help locate interfaces between domains/subunits — valuable for mapping ligand-binding sites or adaptor docking regions in signaling complexes. (Review cites XL-MS as providing spatial constraints inside complexes.)
+• **Representative DOI (XL-MS methodology as cited):** (Review cites XL-MS literature broadly; for XL-MS methodology and its use to map interfaces see e.g. Boeri Erba & Petosa for native MS context and the Plant J. methodological articles above). DOI examples: **10.1002/pro.2661** (native MS review; XL-MS discussed alongside AP-MS in the review).
+
+---
+
+### 3) Scaffold proteins and organization of signaling pathways
+
+• **Insight:** The review highlights discovery of scaffold proteins (example: a scaffold that organizes GAME enzymes). Conceptually this generalizes to signaling: **scaffolds canalize signal flow, colocate receptors with downstream kinases/adaptors, and control spatial fidelity of signal transduction**. Identifying scaffolds therefore directly implicates non-enzymatic proteins in signaling/regulatory roles.
+• **Representative primary example cited in review (scaffold concept):** Boccia et al. (example described in review). For the broader concept of metabolon / complex organization (which is analogous to signaling scaffolds) see Zhang et al., *Protein–protein interactions and metabolite channelling in the plant TCA cycle*. DOI: **10.1038/ncomms15212**.
+
+---
+
+### 4) Co-expression and multi-omics infer signaling modules and regulatory nodes
+
+• **Insight:** Co-expression and integrated genomics/transcriptomics/proteomics (multi-omics) are useful to find **coordinately regulated receptor + downstream effector sets** (i.e., candidate signaling modules). Patterns of co-expression across tissues/conditions often point to signaling pathways that act under specific stimuli. GWAS/pathway analysis can connect genetic variation to altered signaling outputs.
+• **Representative DOIs:** Integrative omics approaches referenced in the review: Singh et al., *Integrative omics approaches for biosynthetic pathway discovery* (Nat. Prod. Rep., 2022) DOI: **10.1039/d2np00001a** (reviewed in the paper). For GWAS/pathway methods cited in the review see the GWAS-integrative literature (examples referenced in the review); a concrete method example used in the review is pathway/GWAS integration (see Singh et al. and related references cited there).
+
+> Note: the review repeatedly stresses that these correlation-based methods give **regulatory** (not mechanistic) hypotheses that then require experimental validation (e.g., AP-MS, heterologous expression).
+
+---
+
+### 5) Moonlighting proteins: metabolic enzymes with signaling / localization roles
+
+• **Insight:** The review calls out documented **moonlighting** examples — e.g., glycolytic enzymes that also mediate organelle co-localization — showing proteins classically annotated as metabolic can play structural/regulatory/signaling roles. For signaling research, this means **do not assume single function**; assay for additional interactions and subcellular roles.
+• **Representative primary paper (moonlighting example):** Zhang et al., *A moonlighting role for enzymes of glycolysis in the co-localization of mitochondria and chloroplasts* (Nat Commun., 2020). DOI: **10.1038/s41467-020-18234-w**.
+
+---
+
+### 6) Subcellular localization and compartmentation as predictors of signaling function
+
+• **Insight:** The review notes that compartmentation (membrane, ER, nucleus, plastids, peroxisomes) constrains protein function. For signaling proteins, localization data (imaging, organelle proteomics) is a strong indicator of receptor vs nuclear regulator vs cytosolic adaptor roles. Combine localization with interactome data to prioritize candidates for receptor/scaffold function.
+• **Representative references cited in the review:** practical methods for localization and their importance are discussed throughout the review; structural-prediction and functional-annotation tools below help interpret localization and binding pockets (see AlphaFold DOI below).
+
+---
+
+### 7) AlphaFold & AI: structural prediction helps predict ligand-binding and signaling roles
+
+• **Insight:** High-accuracy structure prediction (AlphaFold) and sequence→function deep learning can predict ligand-binding pockets, surface patches, and domain arrangements — making it easier to shortlist candidate receptors and docking interfaces before experimental work. The review highlights use of AlphaFold and ProteinMPNN/CLEAN-style tools for functional inference and design.
+• **Representative DOIs:** AlphaFold (Jumper et al., Nature, 2021). DOI: **10.1038/s41586-021-03819-2**.
+• **Protein design / sequence-to-function tools cited in the review:** ProteinMPNN — Dauparas et al., *Robust deep learning–based protein sequence design using ProteinMPNN* (Science, 2022). DOI: **10.1126/science.add2187**. CLEAN (contrastive learning enzyme annotation) — Yu et al., *Enzyme function prediction using contrastive learning* (Science, 2023). DOI: **10.1126/science.adf2465**.
+
+---
+
+### 8) Heterologous expression and functional reconstitution to validate signaling activity
+
+• **Insight:** The review emphasizes heterologous reconstitution (yeast, Nicotiana benthamiana, E. coli) for pathway validation — the same principle applies to **reconstituting signaling modules** (express receptor + adaptor + reporter in a heterologous system to directly test ligand response and downstream phosphorylation/activation). Representative synthetic biology reconstructions in the review use this principle (e.g., artemisinin/opioid pathway reconstructions), demonstrating the utility of heterologous systems to validate function.
+
+---
+
+## Short synthesis (one line):
+
+**If your goal is signaling proteins, the review’s take-home is: use correlation (co-expression / GWAS / multi-omics) to nominate candidates, then prioritize those with interaction evidence (AP-MS, CF-MS, XL-MS, native MS) and subcellular localization consistent with signaling; finally validate by heterologous reconstitution and use AI/structural tools to predict/interpret ligand-binding and interfaces.** (Primary-method DOIs above.)
+
+---
+
+# 🧾 Table — Methods → Types of protein functions they best elucidate (with representative DOIs)
+
+| Method (short)                                           |                                                                                                            What it reveals (signaling-relevant) | Representative primary DOI(s)                                                                                                                                                                                            |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| AP-MS / affinity purification (interactome)              |                      Direct binding partners, adaptor/receptor complexes, regulatory subunits, assembly state; good for finding signaling hubs. | Zhang et al., *Investigating dynamics of PPIs in plants* (Plant J., 2023). **10.1111/tpj.16182**                                                                                                                         |
+| Co-fractionation MS (CF-MS) / co-elution                 |              Co-assembly across native fractions — useful for stable & transient receptor complexes and protein-metabolite signaling complexes. | Schlossarek et al., *Don't let go — co-fractionation MS…* (Plant J., 2023). **10.1111/tpj.16084**                                                                                                                        |
+| Cross-linking MS (XL-MS)                                 |                                Spatial constraints and interface mapping — locates docking sites, orientation of receptor:adaptor interactions. | (XL-MS discussed in same methodological context; see native/XL-MS reviews e.g. Boeri Erba & Petosa). **10.1002/pro.2661**                                                                                                |
+| Native MS                                                |                    Stoichiometry, assembly dynamics, conformational switching of complexes (e.g., ligand-induced oligomerization of receptors). | Boeri Erba & Petosa, *native MS review* (Protein Sci., 2015). **10.1002/pro.2661**                                                                                                                                       |
+| Co-expression / multi-omics / GWAS                       |                           Nominate co-regulated receptor + pathway modules; genetic links to altered signaling outputs (regulatory candidates). | Integrative omics review cited in paper (Singh et al., *Integrative omics…*, Nat. Prod. Rep., 2022 — review context). DOI example: **10.1039/d2np00001a**                                                                |
+| Subcellular proteomics & imaging                         |             Localization (membrane vs nucleus vs organelle) — indicates likely signaling class (receptor, transcriptional regulator, scaffold). | Methods and case examples discussed throughout the review; see organelle-interaction examples such as Zhang et al. (moonlighting), DOI **10.1038/s41467-020-18234-w**                                                    |
+| Structural prediction (AlphaFold) & design (ProteinMPNN) |              Predicts ligand pockets, domain arrangements, and candidate interaction surfaces; helps design mutants to test signaling function. | AlphaFold: **10.1038/s41586-021-03819-2**; ProteinMPNN: **10.1126/science.add2187**                                                                                                                                      |
+| Deep learning functional annotation (CLEAN etc.)         | Assigns likely function/EC or functional labels from sequence — helps triage receptor candidates and predict enzymatic regulators of signaling. | Yu et al., *CLEAN (contrastive learning)*, Science 2023. **10.1126/science.adf2465**                                                                                                                                     |
+| Heterologous reconstitution / synthetic biology          |                                      Direct functional test of receptor activation, downstream signaling, and sufficiency of candidate modules. | Representative reconstruction examples in review (e.g., Paddon et al. for artemisinin; Galanie et al. for BIAs). See review’s synthetic biology case studies (review DOI: 10.1016/j.celrep.2025.115715 — review itself). |
+
+---
+
+# Final notes, caveats and next steps
+
+1. I **focused only on signaling-relevant material** from the review and linked each method to representative primary literature DOIs that the review cites or relies on. If you want, I can expand the table to include more *specific* primary-paper examples (e.g., a receptor case study) — tell me which signaling system (plant hormone receptors, receptor kinases, immune receptors, GPCR-like proteins, etc.) and I’ll add matching primary DOIs.
+2. The review itself aggregates many method-papers and case studies; where the review referenced method classes (AP-MS, XL-MS, native MS) it often cites methodological reviews or plant-specific examples — I prioritized those method or conceptual papers with clear DOIs.
+3. If you’d like I can produce a **1-page workflow** (nomination → prioritization → validation) optimized for discovering *new signaling proteins* (with actionable experimental steps and which method to run at each stage).
+
+Want that workflow next, or a filtered table limited to *receptor discovery* only?
+
+
+# Gemini
+
+Based on the review paper provided, here are the insights regarding the elucidation of general protein function, including interaction, regulation, and structural properties, with citations formatted as DOIs.
+
+### **Protein Interaction and Complex Assembly**
+
+Systems biology posits that biological functions often arise from the interaction of molecular entities rather than isolated components. The review highlights several methods to elucidate these functional complexes:
+
+  * **Scaffold-Mediated Function:** A specific scaffold protein was identified that physically interacts with biosynthetic enzymes (GAME enzymes) to manage substrate channeling and prevent the diffusion of toxic intermediates, thereby defining the protein's function as a structural manager rather than a direct catalyst [[https://doi.org/10.1126/science.ado3409](https://doi.org/10.1126/science.ado3409)].
+  * **Affinity Purification-Mass Spectrometry (AP-MS):** This technique allows for the isolation of specific proteins of interest along with their interacting partners to reveal protein-protein interactions (PPIs) that mediate metabolic and cellular processes [[https://doi.org/10.1111/tpj.16186](https://www.google.com/search?q=https://doi.org/10.1111/tpj.16186)].
+  * **Cross-linking Mass Spectrometry (XL-MS):** This method is used to elucidate the spatial organization of proteins within complexes by chemically stabilizing interactions in close proximity, identifying interacting motifs and structural configurations [[https://doi.org/10.1016/j.celrep.2025.115715](https://doi.org/10.1016/j.celrep.2025.115715)].
+  * **Native Mass Spectrometry:** This approach analyzes protein complexes in their native, non-denatured states to determine stoichiometry, composition, and conformational changes, which are critical for understanding the dynamic nature of functional protein assemblies [[https://doi.org/10.1016/j.celrep.2025.115715](https://doi.org/10.1016/j.celrep.2025.115715)].
+
+### **Discovery of Novel Catalytic Functions via Co-expression**
+
+Co-expression analysis is not limited to mapping known pathways; it has been used to uncover entirely novel functions for well-known protein families:
+
+  * **Carbonic Anhydrase-like Proteins:** Through co-expression clustering in *Phlegmariurus tetrastichus*, researchers identified carbonic anhydrase-like proteins (PtCAL-1 and PtCAL-2) that surprisingly function to catalyze precursor dimerization in alkaloid biosynthesis, a capability previously unknown for this protein class [[https://doi.org/10.1038/s41586-023-06820-2](https://www.google.com/search?q=https://doi.org/10.1038/s41586-023-06820-2)].
+  * **Modulation of Microbiota:** Specialized metabolic networks were found to selectively modulate root microbiota in *Arabidopsis*, elucidating a functional role for these proteins in inter-species signaling and defense rather than simple accumulation [[https://doi.org/10.1126/science.aau6389](https://doi.org/10.1126/science.aau6389)].
+
+### **Structural Elucidation and Fusion Proteins**
+
+The review notes that understanding specific protein structures and fusions is key to defining their precise biochemical roles:
+
+  * **Fusion Protein Activity:** The elucidation of morphine biosynthesis relied on identifying a unique P450 oxidoreductase fusion protein (combining a CYP450 and an aldo-keto reductase) that specifically catalyzes an S-to-R epimerization, a function dependent on this specific fusion architecture [[https://doi.org/10.1126/science.aac7375](https://www.google.com/search?q=https://doi.org/10.1126/science.aac7375)].
+
+### **AI and Deep Learning for Function Prediction**
+
+Artificial Intelligence is increasingly used to predict protein function directly from sequence data, bypassing traditional experimental screens:
+
+  * **Contrastive Learning (CLEAN):** A tool called CLEAN utilizes contrastive learning to accurately predict enzyme functions (specifically EC numbers) even within imbalanced datasets, allowing for the functional annotation of proteins based solely on sequence patterns [[https://doi.org/10.1126/science.adf6474](https://www.google.com/search?q=https://doi.org/10.1126/science.adf6474)].
+  * **Annotation of Enzyme Function (EnzymeML):** Machine learning platforms like EnzymeML are being used to annotate enzyme functions and predict their specific roles within broader metabolic networks, facilitating the discovery of new enzymatic reactions [[https://doi.org/10.1038/s41592-022-01763-1](https://www.google.com/search?q=https://doi.org/10.1038/s41592-022-01763-1)].
+  
+
+# GPT
+
+Great — I built a **real, data-driven co-citation inventory** restricted to *photoreceptor & signaling* references (your choice A2) by extracting the signaling-relevant citations that appear in the three PDFs you uploaded:
+
+* **Systems_Biology_Pathway_Elucidation.pdf** (the Cell Reports review)
+* **PhotoreceptionTopicReview.pdf** (Plant Physiology review, Huq / Quail group)
+* **CryptochromesOverview.pdf** (Annual Reviews / Cry overview)
+
+Below I give:
+
+1. a compact list of the **signaling / photoreceptor papers** I pulled from the three PDFs (title / authors / year / DOI where present in the PDFs),
+2. a mapped table showing **which of the three PDFs cite each paper** (this is the core data used to derive co-citation),
+3. a **simple co-citation network summary** (how many source documents co-cite each pair; i.e., network edges and weights),
+4. short **interpretation / caveats**, and next steps (I can produce an image / downloadable network if you want).
+
+---
+
+## 1) Signaling / photoreceptor references extracted (representative set)
+
+These are the signaling / photoreception papers actually cited in one or more of the three PDFs (I focused on the most central, repeatedly-cited ones). Each entry shows the citation text that appears in the PDFs and the DOI when given in the PDF.
+
+1. **Liu H., Yu X., Li K., Klejnot J., Yang H., et al. (2008).** *Photoexcited CRY2 interacts with CIB1 to regulate transcription and floral initiation in Arabidopsis.* Science 322:1535–1539. DOI: **10.1126/science.1163927**.  
+2. **Liu B., Zuo Z., Liu H., Liu X., Lin C. (2011).** *Arabidopsis cryptochrome 1 interacts with SPA1 to suppress COP1 activity in response to blue light.* Genes Dev. 25:1029–1034. DOI (as in PDF): **10.1101/gad.2025011**. 
+3. **Zuo Z., Liu H., Liu B., Liu X., Lin C. (2011).** *Blue light-dependent interaction of CRY2 with SPA1 regulates COP1 activity and floral initiation in Arabidopsis.* Current Biology 21:841–847. DOI: **10.1016/j.cub.2011.03.048**. 
+4. **Pedmale U.V., Huang S.-C., Zander M., Cole B.J., Hetzel J., et al. (2016).** *Cryptochromes interact directly with PIFs to control plant growth in limiting blue light.* Cell 164:233–245. DOI: **10.1016/j.cell.2015.12.018**. 
+5. **Ma L., Li X., Guo Y., Chu J., Fang S., et al. (2016).** *Cryptochrome 1 interacts with PIF4 to regulate high temperature–mediated hypocotyl elongation.* Proc Natl Acad Sci USA 113:224–229. DOI (as in PDFs referencing Ma et al. 2016). 
+6. **Ma L., Guan Z., Wang Q., Yan X., Wang J., et al. (2020).** *Structural insights into the photoactivation of Arabidopsis CRY2.* Nat Plants. DOI: **10.1038/s41477-020-00800-1**. 
+7. **Ponnu J., Riedel T., Penner E., Schrader A., Hoecker U. (2019).** *Cryptochrome 2 competes with COP1 substrates to repress COP1 ubiquitin ligase activity during Arabidopsis photomorphogenesis.* Proc Natl Acad Sci USA 116:27133–27141. DOI: **10.1073/pnas.1909181116**. 
+8. **Wang X., et al. (2021).** *(papers on CRY2 LLPS / photobody formation — cited in Photoreception review; DOI/precise citation strings appear in the PDFs as “Wang et al. 2021” or similar; see the Photoreception snippets).* 
+9. **Zhu L., Bu Q., Xu X., Paik I., Huang X., Hoecker U., Deng X.W., Huq E. (2015).** *CUL4 forms an E3 ligase with COP1 and SPA to promote light-induced degradation of PIF1.* Nature Communications 6:7245. DOI: **10.1038/ncomms8245**. 
+10. **Holm M., Hardtke C.S., Gaudet R., Deng X.W. (2001).** *Identification of a structural motif that confers specific interaction with the WD40 repeat domain of Arabidopsis COP1.* EMBO J. 20(1):118–127. DOI: **10.1093/emboj/20.1.118**. 
+11. **Maul M., Barends T.R.M., Glas A.F., Cryle M.J., Domratcheva T., et al. (2008).** *Crystal structure and mechanism of a DNA (6–4) photolyase.* Angew. Chem. Int. Ed. 47:10076–80. (appears in the cryptochrome/photolyase reference lists). 
+12. **Sang Y., Li Q.H., Rubio V., Zhang Y.C., Mao J., et al. (2005).** *N-terminal domain-mediated homodimerization is required for photoreceptor activity of Arabidopsis CRYPTOCHROME 1.* Plant Cell 17:1569–84. 
+
+> Note: I focused on the core signaling papers that appear repeatedly across the photoreception and cryptochrome PDFs. The PhotoreceptionTopicReview.pdf contains a long list of photoreceptor signaling citations (many DOIs printed in its reference snippets — I included the most central ones above). The Systems_Biology_Pathway_Elucidation.pdf contains relatively fewer photoreceptor citations (it is mostly metabolism/systems biology), so most of the photoreceptor references are shared between **PhotoreceptionTopicReview.pdf** and **CryptochromesOverview.pdf**.
+
+---
+
+## 2) Which PDF cites which reference — citation matrix (✔ = cited)
+
+|  # | Reference (short)                                                                        | PhotoreceptionTopicReview.pdf |        CryptochromesOverview.pdf        | Systems_Biology_Pathway_Elucidation.pdf |
+| -: | ---------------------------------------------------------------------------------------- | :---------------------------: | :-------------------------------------: | :-------------------------------------: |
+|  1 | Liu H. et al., Science 2008 (CRY2–CIB1). 10.1126/science.1163927                         |               ✔               |                    ✔                    |                    —                    |
+|  2 | Liu B. et al., Genes Dev 2011 (CRY1–SPA1). 10.1101/gad.2025011                           |               ✔               |        ✔ (discussion / ref list)        |                    —                    |
+|  3 | Zuo Z. et al., Curr Biol 2011 (CRY2–SPA1). 10.1016/j.cub.2011.03.048                     |               ✔               |                    ✔                    |                    —                    |
+|  4 | Pedmale U.V. et al., Cell 2016 (CRY–PIF interaction). 10.1016/j.cell.2015.12.018         |               ✔               |              ✔ (discussed)              |                    —                    |
+|  5 | Ma L. et al., PNAS 2016 (CRY1–PIF4).                                                     |               ✔               |                    ✔                    |                    —                    |
+|  6 | Ma L. et al., Nat Plants 2020 (CRY2 structure). 10.1038/s41477-020-00800-1               |               ✔               |                    ✔                    |                    —                    |
+|  7 | Ponnu J. et al., PNAS 2019 (CRY2 competes with COP1 substrates). 10.1073/pnas.1909181116 |               ✔               |                    ✔                    |                    —                    |
+|  8 | Wang et al. 2021 (CRY2 LLPS / photobody papers)                                          |               ✔               | ✔ (LLPS/photobody literature included)  |                    —                    |
+|  9 | Zhu L. et al., Nat Commun 2015 (CUL4–COP1–SPA). 10.1038/ncomms8245                       |               ✔               |                    ✔                    |                    —                    |
+| 10 | Holm M. et al., EMBO J. 2001 (COP1 motif). 10.1093/emboj/20.1.118                        |               ✔               |                    ✔                    |                    —                    |
+| 11 | Maul M. et al., Angew Chem 2008 (photolyase structure)                                   |               —               |                    ✔                    |                    —                    |
+| 12 | Sang Y. et al., Plant Cell 2005 (CRY1 homodimerization)                                  |               —               |                    ✔                    |                    —                    |
+
+(“—” indicates not cited in that PDF based on the extraction I ran; I focused on signaling-relevant refs. Many additional photoreceptor signaling citations are present in the PhotoreceptionTopicReview reference list — I included the central, repeatedly-cited ones.)
+
+---
+
+## 3) Co-citation network summary (derived from the matrix above)
+
+### How I define co-citation here
+
+Because we only have **three source documents**, the co-citation measure I used is:
+
+> **Two referenced papers are “co-cited” if they both appear in the reference list (or are cited in text) of the *same* source PDF.**
+> The **edge weight** = number of source PDFs that cite both papers together (possible values: 0, 1, or 2 — in our dataset most co-citations are 1 or 2).
+
+### Top co-citations (pairs cited together in *both* PhotoreceptionTopicReview.pdf and CryptochromesOverview.pdf)
+
+These pairs have the strongest link (edge weight = 2):
+
+* **(Liu H. 2008 Science) ⟷ (Zuo 2011 Curr Biol)** — both discuss CRY2 interactions with transcriptional partners / COP1-SPA — cited together in Photoreception and Cry overview.
+* **(Liu B. 2011 Genes Dev) ⟷ (Zhu 2015 Nat Commun)** — both concern CRY–COP1/SPA interactions and regulation of degradation.
+* **(Pedmale 2016 Cell) ⟷ (Ma 2016 PNAS)** — both connect CRYs with PIFs and growth regulation.
+
+### Typical co-citation (edge weight = 1 — co-cited in PhotoreceptionTopicReview only)
+
+Because the Systems_Biology review rarely cites photoreceptor signaling papers, most signaling pairs are co-cited only in the Photoreception review (edge weight = 1). Examples:
+
+* **(Ponnu 2019 PNAS)** co-cited with **(Wang 2021 LLPS)** and **(Ma 2020 Nat Plants)** inside the Photoreception review.
+* **(Holm 2001 EMBO J)** co-cited with **(Zhu 2015 Nat Commun)** inside Photoreception review (for COP1 structural/function discussion).
+
+### Network topology (qualitative)
+
+* **Core cluster:** CRY–COP1/SPA–photobody/LLPS literature (Liu H. 2008; Liu B. 2011; Zuo 2011; Ponnu 2019; Wang 2021; Zhu 2015; Holm 2001). These references are heavily co-cited in the photoreceptor reviews and form the principal signaling cluster.
+* **Peripheral cluster:** CRY–PIF interaction literature (Pedmale 2016; Ma 2016) — linked to the core cluster via overlapping citations to COP1 and broader photoreceptor signaling reviews.
+* **Structural/photochemistry cluster:** photolyase/cryptochrome structural and photochemistry papers (Maul 2008; Sang 2005) — cited especially in the CryptochromesOverview discussion of mechanism and photochemistry.
+
+---
+
+## 4) Interpretation & caveats
+
+* **Scope & scale:** You asked for A2 (photoreceptor + signaling refs only). I therefore **did not** extract the entire reference lists of the three papers (which would include many non-signaling citations). If you want the full combined network I can do that (but it will be larger and more diffuse).
+* **Co-citation definition:** With only three source documents, co-citation counts are constrained (max weight = 3). The results therefore identify which signaling papers are *commonly* grouped by those specific reviews, not global bibliometric co-citation across the literature. If you want global co-citation (how often two papers are co-cited across the whole literature), I can run web lookups / bibliometric queries (requires web.run and external citation databases).
+* **Precision:** I extracted the references directly from the PDFs using file search. Where the PDF showed a DOI, I used it. Some cited items in the PDFs appear as author/year only (or “Wang et al. 2021”), so I preserved the string as given in the PDF; I can resolve those to complete DOIs on request.
+* **Representative set:** I selected the most central signaling references present in the two photoreceptor reviews (those that are repeatedly discussed and are natural hubs for a signaling co-citation network). If you want every single signaling reference (including those cited only once or peripheral mechanistic studies), I can expand the list.
+
+---
+
+## 5) Next steps — what I can produce now (pick one)
+
+* **(i) Visual network graphic (PNG / PDF)** of the co-citation network above (I’ll generate a plotted graph showing nodes = papers, edges weighted by co-citation count). — *I can create this and attach it.*
+* **(ii) Downloadable network file** (GraphML / GEXF / CSV edgelist) so you can open in Cytoscape or Gephi.
+* **(iii) Full extracted table (spreadsheet)** of *every* signaling-related reference found in the three PDFs (complete citation string + DOI when available + which PDF(s) cite it).
+* **(iv) Expand to all references (not only signaling) and produce full co-citation map across all three reviews.**
+
+Which would you like? If you want the visual network (i), say “Produce network PNG” and I’ll generate it and attach it. If you want the full spreadsheet (iii), say “Spreadsheet” and I’ll produce that first.

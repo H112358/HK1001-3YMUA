@@ -80,3 +80,74 @@ Starch synthesis out of the blue: ASAP pathway
 ![Stoichiometries of naturally occuring and artificial aero-tolerant CO2 fixation cycles](vx_images/487295203957090.png)
     
 
+Introduction
+Members of the Photolyase/Cryptochrome Family play vastly different roles across different do￾mains of life utilizing the same blue light sensitive domain, including bacterial DNA repair and
+plant photomorphogenesis. This desktop study aims to explore the extent of current knowl￾edge on the molecular biology of this protein family, highlight the role in plant physiology of its
+members, and discuss its applications in optogenetic manipulation.
+It’s a long way from resurrection: current understanding of the PCF
+family
+A highly conserved family of flavoproteins had been discovered to contain the Photolyase Ho￾mology Region, including photolyases and cryptochromes. CPD-photolyase, which catalyses
+photoreactivation utilising energy from UV radiation to repair DNA damage from UV irradiance,
+is identified as the functional prototype of this protein family (DeOliveira and Crane, 2024). The
+last common ancestor of most modern taxa probably existed under heavy UV radiation; since a
+class of flavoproteins, CPD-photolyase, which is ubiquitously found in all domains of cellular life
+except placental mammals, repairs DNA damage from cyclobutane pyrimidine dimers (CPD)
+(Sagan, 1973). CPD is the product of thymine or cytosine dimerisation, which are four-electron,
+[2+2] cycloaddition reactions between adjacent C=C bonds that are usually stereochemically
+prohibited by the Woodward–Hoffmann rules, unless orbital stereochemistry is altered via inci￾dence of electromagnetic radiation (Grossman, 2019), which was abundant on the early earth
+surface due to the lack of an ozone layer(Walker, 1978). This early evolutionary pressure may
+underpin the early evolution of CPD-photolyase, which undergoes fast blue-light-induced re￾pair of CPDs on target DNA. This is a highly potent enzyme. To illustrate, CPD-photolyase
+was initially reported in Streptomyces griseus (Kelner, 1949), where it was identified as the
+protein responsible for light-induced resurrection of UV-killed cells. Key to the repair func￾tion of CPD-photolyase are two proposed mechanisms; the photoreduction of a flavin adeno￾sine dinucleotide (FAD) and an electron-transfer-mediated, stepwise cleavage of the two C-C
+bonds formed during [2+2] cycloaddition between the pyrimidines. Structural adaptations of
+CPD-photolyase have been highlighted: a highly conserved three-tryptophan electron transfer
+chain, elucidated from protein BLAST alignment and evolutionary trace studies, is proposed to
+be responsible for photoreduction of the photoactivated FAD*, forming a highly reactive FADH·
+radical(MacFarlane and Stanley, 2001; Londero et al., 2025); the other is a DNA binding groove
+that selectively binds to CPD photolesions (Mees et al., 2004). Course of the repair mechanism
+had been elucidated by femtosecond crystallography using x-ray free electron lasers (Maestre￾Reyna et al., 2023; Christou et al., 2023). However, due to light incidence from laser source
+during crystallography being far above physiological levels, the exact repair mechanism under
+physiological conditions remains contentious (Vos, 2023).
+CPD-photolyase homologs, known as cryptochromes (CRYs), are eukaryotic proteins con￾taining a long N-terminal domain homologous to CPD-photolyase, and are blue-light sensing
+proteins responsible for an array of functions in multicellular life, notably photomorphogenesis
+in plants. Cryptochrome was first identified by its absence in the hy4 mutant in Arabidopsis
+1
+thaliana, which exhibits selective insensitivity to blue light during the blue-light-dependent inhi￾bition of the hypocotyl elongation response during seed germination (Ahmad and Cashmore,
+1993). Structurally, CRYs share with CPD photolyase the ability to reduce a FAD cofactor upon
+photoactivation, but had lost the binding affinity to CPD photolesions. It was initially understood
+that the homologous domain to photolyase DNA binding groove in CRYs are lost or closed, as
+evidence suggest specificity to CPD photolesions is much lower in CRYs than in photolyase
+(Sato et al., 2018), however more recent research underpinned a model of blue-light-induced
+steric hindrance removal by a section the variable C-terminal coupled motif (CCM) in CRYs, in
+Drosophila melanogaster, that allows access to a mutated binding groove specific to a protein
+motif (Lin et al., 2023). Nevertheless, CRYs do not bind to most of their signalling partners;
+such as morphogetic regulators COP1 of seed germination (Han et al., 2020) and CIB1 of flow￾ering initiation (Liu et al., 2018) in plants; constitutively as monomers. Instead, photoexcited
+plant CRYs transiently assemble into homodimers via an interaction surface exposed by con￾formational changes in response to FAD reduction, which plays a key role in their interaction
+with signalling partners. It had been reported that mutant CRYs that auto-dimerize without pho￾toactivation are constitutively active, and that the CRY inhibitor BIC1 blocks CRY dimerization
+(Shao et al., 2020).
+Like seeds of a pomegranate: photophysiology of CRYs in Ara￾bidopsis and their optogenetic application
+Plant CRYs, for example in A. thaliana, acts in two physically different mechanisms. Upon pho￾toactivation and homodimerization, CRYs are found to undergo phosphorylation on their CCM
+domain by photoregulatory protein kinases (Liu et al., 2017; Gao et al., 2022), which further
+activates CRYs and promote the exposure of a second interaction surface that allows aggre￾gation of CRY-CRY homodimers into homotetramers. Homotetramers are capable, through
+an unelucidated mechanism, condense further into photobodies. The photobody is defined as
+the nuclear body/domain consisting of photoexcited photoreceptor, such as CRYs, and their
+interacting proteins in plants (Lyu et al., 2021). Photobodies demonstrate liquid–liquid phase
+separation (LLPS). Upon blue-light activation, CRY2 tetramers nucleate the formation of hy￾percondensed protein droplets in the nucleus, within which both constitutive CRY-interacting
+proteins and non-constitutive CRY signalling partnets accumulate, within seconds of illumina￾tion. Condensates remain in the liquid phase due to the disorganised structure of CCM do￾mains post-phosphorylation; without phosphorylation of the CCM orbit, CRY2 forms immobile
+aggregates with diminished physiological activity. LLPS-driven enrichment of CRY complexes
+increases kinetic rates of interactions between CRYs and diverse signalling proteins, including
+enzymes and transcription factors. This regime allows rapid and spatially organized modulation
+of gene expression in the Arabidopsis plant (Wang and Lin, 2025).
+Studies on photo-dimerization and oligomerization had led to the development of several
+optogenetic tools, the most popular being the CRY2-CIB1 switch (Kennedy et al., 2010). This
+molecular switch utilises non-constitutive affinity between A. thaliana CRY2 and CIB1, whereby
+photoactivated CRY2 homodimers quickly binds to CIB1 ... CRY1-GL2 complexing in Zeas
+mays competitively inhibits formation of CER6-GL2 enzyme complex and thus inhibits cuticular
+2
+wax biosynthesis. Possible to engineer into negative switch? (Liu et al., 2025)
+Discussion
+This desktop study took a wide browse of the current scope of knowledge on the structure and
+function of two classes of proteins in the PCF family, CPD-photolyase and CRY2, the latter
+being the primary blue light receptor in plants. It attempted to identify key research output
+that led to the formation of this current understanding; and prime obstacles impeding current
+research.

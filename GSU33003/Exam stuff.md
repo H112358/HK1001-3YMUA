@@ -36,7 +36,11 @@ I've added the "\>" prefix to all the questions in your text block as requested.
 
 > 2. How does the source illustrate the vastness of Earth's geological history in a relatable way?
 
+* 
+
 > 3. Name the two epochs that comprise the Quaternary Period and briefly describe each.
+
+* Pleistocene, between 2Macharacterized by
 
 > 4. What is a "golden spike" in geological terms, and what does it signify for the base of the Quaternary
 Period?
